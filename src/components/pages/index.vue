@@ -1,5 +1,5 @@
 <script setup>
-import useAuth from '../../composable/useAuth';
+import useAuth from "../../composable/useAuth.js";
 const { isAuthenticated, user } = useAuth();
 </script>
 
